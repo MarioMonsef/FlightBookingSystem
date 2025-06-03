@@ -1,0 +1,12 @@
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\bin\Debug\net8.0\01.FlightBookingSystem.Core.deps.json
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\bin\Debug\net8.0\01.FlightBookingSystem.Core.dll
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\bin\Debug\net8.0\01.FlightBookingSystem.Core.pdb
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.AssemblyInfoInputs.cache
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.AssemblyInfo.cs
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.csproj.CoreCompileInputs.cache
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.dll
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\refint\01.FlightBookingSystem.Core.dll
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.pdb
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\ref\01.FlightBookingSystem.Core.dll
+G:\.Net\API Projects\FlightBookingSystem\01.FlightBookingSystem.Core\obj\Debug\net8.0\01.FlightBookingSystem.Core.csproj.AssemblyReference.cache

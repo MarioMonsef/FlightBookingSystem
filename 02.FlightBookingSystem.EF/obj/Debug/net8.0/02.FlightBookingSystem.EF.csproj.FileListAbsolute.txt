@@ -1,0 +1,17 @@
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\02.FlightBookingSystem.EF.deps.json
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\02.FlightBookingSystem.EF.runtimeconfig.json
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\02.FlightBookingSystem.EF.dll
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\02.FlightBookingSystem.EF.pdb
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\01.FlightBookingSystem.Core.dll
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\bin\Debug\net8.0\01.FlightBookingSystem.Core.pdb
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.csproj.AssemblyReference.cache
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.GeneratedMSBuildEditorConfig.editorconfig
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.AssemblyInfoInputs.cache
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.AssemblyInfo.cs
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.csproj.CoreCompileInputs.cache
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.Fligh.F081D788.Up2Date
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.dll
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\refint\02.FlightBookingSystem.EF.dll
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.pdb
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.genruntimeconfig.cache
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\ref\02.FlightBookingSystem.EF.dll
