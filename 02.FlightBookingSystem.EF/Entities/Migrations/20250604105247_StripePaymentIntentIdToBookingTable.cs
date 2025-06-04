@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace _02.FlightBookingSystem.EF.Entities.Migartions
+namespace _02.FlightBookingSystem.EF.Entities.Migrations
 {
     /// <inheritdoc />
     public partial class StripePaymentIntentIdToBookingTable : Migration
@@ -16,7 +16,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migartions
                 table: "Bookings",
                 type: "datetime2",
                 nullable: false,
-                defaultValue: new DateTime(2025, 5, 17, 6, 57, 21, 202, DateTimeKind.Utc).AddTicks(9255),
+                defaultValue: new DateTime(2025, 6, 4, 10, 52, 46, 720, DateTimeKind.Utc).AddTicks(2681),
                 oldClrType: typeof(DateTime),
                 oldType: "datetime2",
                 oldDefaultValue: new DateTime(2025, 5, 11, 3, 7, 51, 435, DateTimeKind.Utc).AddTicks(2159));
@@ -44,7 +44,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migartions
                 defaultValue: new DateTime(2025, 5, 11, 3, 7, 51, 435, DateTimeKind.Utc).AddTicks(2159),
                 oldClrType: typeof(DateTime),
                 oldType: "datetime2",
-                oldDefaultValue: new DateTime(2025, 5, 17, 6, 57, 21, 202, DateTimeKind.Utc).AddTicks(9255));
+                oldDefaultValue: new DateTime(2025, 6, 4, 10, 52, 46, 720, DateTimeKind.Utc).AddTicks(2681));
         }
     }
 }

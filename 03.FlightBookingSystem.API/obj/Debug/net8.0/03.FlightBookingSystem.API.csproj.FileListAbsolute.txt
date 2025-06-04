@@ -155,3 +155,4 @@ G:\.Net\API Projects\FlightBookingSystem\03.FlightBookingSystem.API\bin\Debug\ne
 G:\.Net\API Projects\FlightBookingSystem\03.FlightBookingSystem.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 G:\.Net\API Projects\FlightBookingSystem\03.FlightBookingSystem.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 G:\.Net\API Projects\FlightBookingSystem\03.FlightBookingSystem.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+G:\.Net\API Projects\FlightBookingSystem\03.FlightBookingSystem.API\obj\Debug\net8.0\03.FlightBookingSystem.API.sourcelink.json

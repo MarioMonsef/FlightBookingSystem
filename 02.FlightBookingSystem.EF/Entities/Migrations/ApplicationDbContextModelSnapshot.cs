@@ -166,7 +166,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migrations
                     b.Property<DateTime>("BookingDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2025, 5, 17, 6, 57, 21, 202, DateTimeKind.Utc).AddTicks(9255));
+                        .HasDefaultValue(new DateTime(2025, 6, 4, 10, 52, 46, 720, DateTimeKind.Utc).AddTicks(2681));
 
                     b.Property<int>("PaymentStatus")
                         .ValueGeneratedOnAdd()

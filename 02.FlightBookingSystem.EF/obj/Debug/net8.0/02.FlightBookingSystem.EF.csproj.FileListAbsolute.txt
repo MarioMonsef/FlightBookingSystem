@@ -15,3 +15,4 @@ G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net
 G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.pdb
 G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.genruntimeconfig.cache
 G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\ref\02.FlightBookingSystem.EF.dll
+G:\.Net\API Projects\FlightBookingSystem\02.FlightBookingSystem.EF\obj\Debug\net8.0\02.FlightBookingSystem.EF.sourcelink.json

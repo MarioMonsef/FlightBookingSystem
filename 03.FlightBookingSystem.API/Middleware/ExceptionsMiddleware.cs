@@ -44,7 +44,7 @@ namespace _03.FlightBookingSystem.API.Middleware
                     context.Response.ContentType = "application/json";
                     var response = new APIExceptions((int)HttpStatusCode.TooManyRequests, "Too many requests, please try again later.");
                     await context.Response.WriteAsJsonAsync(response);
-                    return; // Prevents further processing if rate limited
+                    //return; // Prevents further processing if rate limited
                 }
 
                 await _next(context);
