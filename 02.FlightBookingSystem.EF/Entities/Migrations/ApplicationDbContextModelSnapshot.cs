@@ -191,7 +191,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Bookings");
+                    b.ToTable("Bookings", (string)null);
                 });
 
             modelBuilder.Entity("_01.FlightBookingSystem.Core.Models.Flight.Flight", b =>
@@ -229,7 +229,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("flights", t =>
+                    b.ToTable("flights", null, t =>
                         {
                             t.HasCheckConstraint("CK_Flight_Price", "Price >= 0");
                         });
@@ -331,7 +331,7 @@ namespace _02.FlightBookingSystem.EF.Entities.Migrations
 
                     b.HasIndex("FlightID");
 
-                    b.ToTable("Seats", t =>
+                    b.ToTable("Seats", null, t =>
                         {
                             t.HasCheckConstraint("CK_Seat_SeatNumber_Format", "SeatNumber LIKE '[A-Z][0-9][0-9]'");
                         });
