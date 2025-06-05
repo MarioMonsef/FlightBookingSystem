@@ -6,7 +6,8 @@ using System.Text.Json;
 namespace _03.FlightBookingSystem.API.Middleware
 {
     /// <summary>
-    /// Middleware for handling exceptions and applying basic IP-based rate limiting.
+    /// Middleware for handling exceptions, applying basic IP-based rate limiting,
+    /// and enforcing common security headers.
     /// </summary>
     public class ExceptionsMiddleware
     {
@@ -65,30 +66,39 @@ namespace _03.FlightBookingSystem.API.Middleware
 
         /// <summary>
         /// Checks whether the request from a given IP is allowed based on a fixed window rate limit.
+        /// Allows up to 8 requests per IP address within a 30-second window.
         /// </summary>
         /// <param name="context">The HTTP context for the current request.</param>
         /// <returns>True if the request is within the allowed rate; otherwise, false.</returns>
         private bool IsRequestAllowed(HttpContext context)
         {
-            var ip = context.Connection.RemoteIpAddress.ToString();
+            var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
             var timeNow = DateTime.UtcNow;
             var cacheKey = $"Rate:{ip}";
 
-            // Get or create a cache entry for the current IP address
-            var (timestamp, count) = _cache.GetOrCreate(cacheKey, entry =>
-            {
-                entry.AbsoluteExpirationRelativeToNow = _rateLimitWindow;
-                return (Timestamp: timeNow, count: 0);
-            });
+            var existing = _cache.Get<(DateTime timestamp, int count)?>(cacheKey);
 
-            if (timeNow - timestamp < _rateLimitWindow)
+            if (existing.HasValue)
             {
-                if (count >= 8)
+                var (timestamp, count) = existing.Value;
+
+                if (timeNow - timestamp < _rateLimitWindow)
                 {
-                    return false;
-                }
+                    if (count >= 8)
+                        return false;
 
-                _cache.Set(cacheKey, (timestamp, count + 1), _rateLimitWindow);
+                    _cache.Set(cacheKey, (timestamp, count + 1), _rateLimitWindow);
+                }
+                else
+                {
+                    // Window expired, reset count
+                    _cache.Set(cacheKey, (timeNow, 1), _rateLimitWindow);
+                }
+            }
+            else
+            {
+                // First request from this IP
+                _cache.Set(cacheKey, (timeNow, 1), _rateLimitWindow);
             }
 
             return true;
